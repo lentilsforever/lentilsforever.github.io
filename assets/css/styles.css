@@ -1,1 +1,151 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color:yellow;
+  color: green;
+}
 
+
+.marquee-container {
+  text-align:center;
+  background-color:yellow;
+}
+
+.marquee {
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFF00;
+  display: flex;
+  Justify-content: center;
+  gap: 10px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.menu a {
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #FFFF00;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  background-color: #FFFF00;
+  margin: 0;
+  padding: 0;
+}
+
+.submenu li {
+  display: block;
+}
+
+.submenu a {
+  padding: 10px 16px;
+  text-align: left;
+}
+
+.submenu li a:hover {
+  background-color: #FFFF00;
+}
+
+
+.gif-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+}
+
+.gif-container {
+  position: fixed; /* Keeps the GIF in place as you scroll */
+  top: 0; /* Aligns the GIF to the top */
+  left: 0; /* Positions the GIF on the far left */
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.fixed-gif {
+  Position: fixed;
+  Bottom: 20px;
+  Right: 20px;
+  Width: 100px;
+  Height: auto;
+}
+
+.content {
+  margin-left: 120px; 
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 5px;
+}
+
+.left-column {
+ background-color: #FFFF00;
+  width: 45%; 
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.right-column {
+  background-color: #FFFF00;
+  width: 60%; 
+  box-sizing: border-box;
+  margin-left: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.left-column h3, .right-column h3 {
+  margin-top: 0;
+}
+
+ul, ol {
+  margin: 10px;
+  padding-left: 10px; 
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.decorative-image {
+  display: block;
+  margin-left: 50px;
+  width: 500px; 
+  height: auto; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
