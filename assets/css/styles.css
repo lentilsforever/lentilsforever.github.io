@@ -107,20 +107,23 @@ body {
   padding: 10px;
 }
 
-.left-column, .right-column, .decorative-image {
-  flex: 1 1 30%;
-  max-width: 30%; 
+.left-column {
+  flex: 1 1 25%; 
+  max-width: 25%; 
   box-sizing: border-box; 
 }
 
 .right-column {
-  margin-left: 0; 
+  flex: 1 1 50%; 
+  max-width: 50%;
+  box-sizing: border-box;
 }
 
 .decorative-image {
-  max-width: 100%; 
-  height: auto;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  flex: 1 1 25%; 
+  max-width: 25%; 
+  height: auto; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 @media screen and (max-width: 768px) {
